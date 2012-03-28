@@ -1,0 +1,772 @@
+DEPRECATION WARNING: ActiveSupport::Memoizable is deprecated and will be removed in future releases,simply use Ruby memoization pattern instead. (called from block in <top (required)> at C:/Sites/Manus/config/initializers/devise.rb:23)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-28 10:55:57 +0100
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.2/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/RailsInstaller/Ruby1.9.2/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/RailsInstaller/Ruby1.9.2/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (198.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-28 10:57:57 +0100
+Processing by VisitsController#new as HTML
+Completed 500 Internal Server Error in 90ms
+
+NameError (undefined local variable or method `current_user' for #<VisitsController:0x4ff8558>):
+  app/controllers/application_controller.rb:6:in `set_locale'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (148.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-28 10:58:22 +0100
+Processing by VisitsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered visits/_fields.html.erb (1.0ms)
+  Rendered visits/new.html.erb within layouts/application (254.0ms)
+Compiled custom.css  (0ms)  (pid 7884)
+Compiled jquery-ui-custom.css  (0ms)  (pid 7884)
+Compiled application.css  (161ms)  (pid 7884)
+Compiled jquery.js  (8ms)  (pid 7884)
+Compiled jquery_ujs.js  (0ms)  (pid 7884)
+Compiled jquery.ui.core.js  (2ms)  (pid 7884)
+Compiled jquery.ui.datepicker.js  (83ms)  (pid 7884)
+Compiled controls.js  (2ms)  (pid 7884)
+Compiled dragdrop.js  (2ms)  (pid 7884)
+Compiled effects.js  (3ms)  (pid 7884)
+Compiled prototype.js  (6ms)  (pid 7884)
+Compiled application.js  (773ms)  (pid 7884)
+  Rendered layouts/_css_and_js.html.erb (1226.1ms)
+ERROR: compiling _app_views_layouts__header_html_erb__79912240_43822392 RAISED C:/Sites/Manus/app/views/layouts/_header.html.erb:27: syntax error, unexpected keyword_ensure, expecting $end
+Function body:           def _app_views_layouts__header_html_erb__79912240_43822392(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "layouts/_header";_old_output_buffer = @output_buffer;header = local_assigns[:header];;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<header>
+  <div id="logo">
+    <h1><a href="#">Manus</a></h1>
+  </div>
+  <div id="menu">
+    <ul>
+      <li>
+        <div id="search" >
+          <form method="get" action="#">
+            <div>
+              <input type="text" name="s" id="search-text" value="" />
+              <input type="submit" id="search-submit" value="GO" />
+            </div>
+          </form>
+        </div>
+      </li>
+');       end 
+@output_buffer.safe_concat('    </ul>
+  </div>
+</header>
+
+
+
+
+
+ ');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_view/template.rb:285:in `module_eval'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_view/template.rb:285:in `compile'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_view/template.rb:233:in `compile!'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_view/template.rb:142:in `block in render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.2.2/lib/active_support/notifications.rb:125:in `instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_view/template.rb:141:in `render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_view/renderer/partial_renderer.rb:257:in `render_partial'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_view/renderer/partial_renderer.rb:230:in `block in render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.2.2/lib/active_support/notifications.rb:123:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.2.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.2.2/lib/active_support/notifications.rb:123:in `instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_view/renderer/partial_renderer.rb:229:in `render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+C:/Sites/Manus/app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___880994016_33318384'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_view/template.rb:143:in `block in render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.2.2/lib/active_support/notifications.rb:125:in `instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_view/template.rb:141:in `render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_view/renderer/template_renderer.rb:13:in `render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_view/renderer/renderer.rb:36:in `render_template'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_view/renderer/renderer.rb:17:in `render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/abstract_controller/rendering.rb:109:in `_render_template'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/abstract_controller/rendering.rb:88:in `render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal/rendering.rb:16:in `render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.2.2/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.2.2/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activerecord-3.2.2/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal/instrumentation.rb:39:in `render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/abstract_controller/base.rb:167:in `process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal/rendering.rb:10:in `process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.2.2/lib/active_support/callbacks.rb:425:in `_run__123942875__process_action__812470490__callbacks'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.2.2/lib/active_support/callbacks.rb:405:in `__run_callback'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.2.2/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.2.2/lib/active_support/callbacks.rb:81:in `run_callbacks'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/abstract_controller/callbacks.rb:17:in `process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal/rescue.rb:29:in `process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.2.2/lib/active_support/notifications.rb:123:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.2.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.2.2/lib/active_support/notifications.rb:123:in `instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activerecord-3.2.2/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/abstract_controller/base.rb:121:in `process'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/abstract_controller/rendering.rb:45:in `process'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal.rb:203:in `dispatch'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal.rb:246:in `block in action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/routing/route_set.rb:67:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/routing/route_set.rb:67:in `dispatch'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/routing/route_set.rb:30:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/journey-1.0.3/lib/journey/router.rb:68:in `block in call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/journey-1.0.3/lib/journey/router.rb:56:in `each'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/journey-1.0.3/lib/journey/router.rb:56:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/routing/route_set.rb:594:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/warden-1.1.1/lib/warden/manager.rb:35:in `block in call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/warden-1.1.1/lib/warden/manager.rb:34:in `catch'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/warden-1.1.1/lib/warden/manager.rb:34:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/head.rb:14:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/flash.rb:242:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activerecord-3.2.2/lib/active_record/query_cache.rb:64:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activerecord-3.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.2.2/lib/active_support/callbacks.rb:405:in `_run__237428581__call__216066883__callbacks'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.2.2/lib/active_support/callbacks.rb:405:in `__run_callback'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.2.2/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.2.2/lib/active_support/callbacks.rb:81:in `run_callbacks'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/railties-3.2.2/lib/rails/rack/logger.rb:26:in `call_app'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/railties-3.2.2/lib/rails/rack/logger.rb:16:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.2.2/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/static.rb:61:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/railties-3.2.2/lib/rails/engine.rb:479:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/railties-3.2.2/lib/rails/application.rb:220:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/railties-3.2.2/lib/rails/rack/log_tailer.rb:14:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+  Rendered layouts/_header.html.erb (463.0ms)
+Completed 500 Internal Server Error in 1994ms
+
+ActionView::Template::Error (C:/Sites/Manus/app/views/layouts/_header.html.erb:27: syntax error, unexpected keyword_ensure, expecting $end):
+    24: 
+    25: 
+    26:  
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___880994016_33318384'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (148.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-28 10:59:14 +0100
+Processing by VisitsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered visits/_fields.html.erb (1.0ms)
+  Rendered visits/new.html.erb within layouts/application (16.0ms)
+  Rendered layouts/_css_and_js.html.erb (8.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered shared/_flash_box.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 82ms (Views: 81.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-28 10:59:15 +0100
+Served asset /application.css - 200 OK (71ms)
+
+
+Started GET "/assets/jquery-ui-custom.css?body=1" for 127.0.0.1 at 2012-03-28 10:59:15 +0100
+Served asset /jquery-ui-custom.css - 200 OK (11ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-03-28 10:59:15 +0100
+Served asset /custom.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-28 10:59:15 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2012-03-28 10:59:15 +0100
+Served asset /jquery.ui.datepicker.js - 200 OK (40ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-28 10:59:15 +0100
+Served asset /jquery.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2012-03-28 10:59:15 +0100
+Served asset /controls.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-03-28 10:59:15 +0100
+Served asset /jquery.ui.core.js - 200 OK (17ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2012-03-28 10:59:15 +0100
+Served asset /dragdrop.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2012-03-28 10:59:15 +0100
+Served asset /effects.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-03-28 10:59:15 +0100
+Served asset /prototype.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-28 10:59:15 +0100
+Served asset /application.js - 200 OK (34ms)
+
+
+Started GET "/assets/images/img03.jpg" for 127.0.0.1 at 2012-03-28 10:59:16 +0100
+Served asset /images/img03.jpg - 200 OK (80ms)
+
+
+Started GET "/assets/images/img02.jpg" for 127.0.0.1 at 2012-03-28 10:59:16 +0100
+Served asset /images/img02.jpg - 200 OK (88ms)
+
+
+Started GET "/assets/images/ui-icons_222222_256x240.png" for 127.0.0.1 at 2012-03-28 10:59:18 +0100
+Served asset /images/ui-icons_222222_256x240.png - 200 OK (125ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2012-03-28 10:59:18 +0100
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 304 Not Modified (63ms)
+
+
+Started GET "/assets/images/ui-bg_highlight-soft_75_cccccc_1x100.png" for 127.0.0.1 at 2012-03-28 10:59:18 +0100
+Served asset /images/ui-bg_highlight-soft_75_cccccc_1x100.png - 304 Not Modified (51ms)
+
+
+Started GET "/assets/images/ui-bg_glass_75_e6e6e6_1x400.png" for 127.0.0.1 at 2012-03-28 10:59:18 +0100
+Served asset /images/ui-bg_glass_75_e6e6e6_1x400.png - 304 Not Modified (51ms)
+
+
+Started GET "/assets/images/ui-bg_glass_55_fbf9ee_1x400.png" for 127.0.0.1 at 2012-03-28 10:59:18 +0100
+Served asset /images/ui-bg_glass_55_fbf9ee_1x400.png - 304 Not Modified (59ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-28 11:00:31 +0100
+Processing by VisitsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered visits/_fields.html.erb (2.0ms)
+  Rendered visits/new.html.erb within layouts/application (38.0ms)
+Compiled application.js  (15ms)  (pid 7884)
+  Rendered layouts/_css_and_js.html.erb (187.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flash_box.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 288ms (Views: 286.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-03-28 11:00:32 +0100
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2012-03-28 11:00:32 +0100
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2012-03-28 11:00:32 +0100
+Served asset /controls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2012-03-28 11:00:32 +0100
+Served asset /dragdrop.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2012-03-28 11:00:32 +0100
+Served asset /effects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-28 11:00:32 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-28 11:00:32 +0100
+Served asset /application.js - 200 OK (39ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-03-28 11:00:32 +0100
+Served asset /prototype.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-custom.css?body=1" for 127.0.0.1 at 2012-03-28 11:00:32 +0100
+Served asset /jquery-ui-custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-03-28 11:00:32 +0100
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-28 11:00:32 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-28 11:00:32 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/img03.jpg" for 127.0.0.1 at 2012-03-28 11:00:33 +0100
+Served asset /images/img03.jpg - 200 OK (1ms)
+
+
+Started GET "/assets/images/img02.jpg" for 127.0.0.1 at 2012-03-28 11:00:33 +0100
+Served asset /images/img02.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2012-03-28 11:00:33 +0100
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_highlight-soft_75_cccccc_1x100.png" for 127.0.0.1 at 2012-03-28 11:00:34 +0100
+Served asset /images/ui-bg_highlight-soft_75_cccccc_1x100.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-icons_222222_256x240.png" for 127.0.0.1 at 2012-03-28 11:00:34 +0100
+Served asset /images/ui-icons_222222_256x240.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_glass_75_e6e6e6_1x400.png" for 127.0.0.1 at 2012-03-28 11:00:34 +0100
+Served asset /images/ui-bg_glass_75_e6e6e6_1x400.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_glass_55_fbf9ee_1x400.png" for 127.0.0.1 at 2012-03-28 11:00:34 +0100
+Served asset /images/ui-bg_glass_55_fbf9ee_1x400.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_glass_75_dadada_1x400.png" for 127.0.0.1 at 2012-03-28 11:00:40 +0100
+Served asset /images/ui-bg_glass_75_dadada_1x400.png - 304 Not Modified (59ms)
+
+
+Started GET "/assets/images/ui-icons_454545_256x240.png" for 127.0.0.1 at 2012-03-28 11:00:40 +0100
+Served asset /images/ui-icons_454545_256x240.png - 200 OK (55ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-28 11:00:46 +0100
+Processing by VisitsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered visits/_fields.html.erb (1.0ms)
+  Rendered visits/new.html.erb within layouts/application (16.0ms)
+  Rendered layouts/_css_and_js.html.erb (21.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flash_box.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 101ms (Views: 101.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-28 11:00:47 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-03-28 11:00:47 +0100
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2012-03-28 11:00:47 +0100
+Served asset /controls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-28 11:00:47 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2012-03-28 11:00:47 +0100
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-28 11:00:47 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2012-03-28 11:00:47 +0100
+Served asset /dragdrop.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-03-28 11:00:47 +0100
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2012-03-28 11:00:47 +0100
+Served asset /effects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-custom.css?body=1" for 127.0.0.1 at 2012-03-28 11:00:47 +0100
+Served asset /jquery-ui-custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-03-28 11:00:47 +0100
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-28 11:00:47 +0100
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/images/img03.jpg" for 127.0.0.1 at 2012-03-28 11:00:47 +0100
+Served asset /images/img03.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/images/img02.jpg" for 127.0.0.1 at 2012-03-28 11:00:47 +0100
+Served asset /images/img02.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/images/ui-bg_highlight-soft_75_cccccc_1x100.png" for 127.0.0.1 at 2012-03-28 11:00:51 +0100
+Served asset /images/ui-bg_highlight-soft_75_cccccc_1x100.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2012-03-28 11:00:51 +0100
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_glass_65_ffffff_1x400.png" for 127.0.0.1 at 2012-03-28 11:00:51 +0100
+Served asset /images/ui-bg_glass_65_ffffff_1x400.png - 304 Not Modified (93ms)
+
+
+Started GET "/assets/images/ui-icons_222222_256x240.png" for 127.0.0.1 at 2012-03-28 11:00:51 +0100
+Served asset /images/ui-icons_222222_256x240.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_glass_75_e6e6e6_1x400.png" for 127.0.0.1 at 2012-03-28 11:00:51 +0100
+Served asset /images/ui-bg_glass_75_e6e6e6_1x400.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_glass_75_dadada_1x400.png" for 127.0.0.1 at 2012-03-28 11:00:54 +0100
+Served asset /images/ui-bg_glass_75_dadada_1x400.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-icons_454545_256x240.png" for 127.0.0.1 at 2012-03-28 11:00:55 +0100
+Served asset /images/ui-icons_454545_256x240.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-28 11:01:12 +0100
+Processing by VisitsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered visits/_fields.html.erb (0.0ms)
+  Rendered visits/new.html.erb within layouts/application (23.0ms)
+  Rendered layouts/_css_and_js.html.erb (9.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flash_box.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 135ms (Views: 133.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-03-28 11:01:12 +0100
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-28 11:01:12 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-28 11:01:12 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-03-28 11:01:12 +0100
+Served asset /jquery.ui.core.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2012-03-28 11:01:12 +0100
+Served asset /controls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-28 11:01:12 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-custom.css?body=1" for 127.0.0.1 at 2012-03-28 11:01:12 +0100
+Served asset /jquery-ui-custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2012-03-28 11:01:12 +0100
+Served asset /effects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2012-03-28 11:01:12 +0100
+Served asset /dragdrop.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2012-03-28 11:01:12 +0100
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-28 11:01:12 +0100
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-03-28 11:01:12 +0100
+Served asset /prototype.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/images/img03.jpg" for 127.0.0.1 at 2012-03-28 11:01:12 +0100
+Served asset /images/img03.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/images/img02.jpg" for 127.0.0.1 at 2012-03-28 11:01:12 +0100
+Served asset /images/img02.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/images/ui-icons_222222_256x240.png" for 127.0.0.1 at 2012-03-28 11:01:14 +0100
+Served asset /images/ui-icons_222222_256x240.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_highlight-soft_75_cccccc_1x100.png" for 127.0.0.1 at 2012-03-28 11:01:14 +0100
+Served asset /images/ui-bg_highlight-soft_75_cccccc_1x100.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2012-03-28 11:01:14 +0100
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_glass_65_ffffff_1x400.png" for 127.0.0.1 at 2012-03-28 11:01:14 +0100
+Served asset /images/ui-bg_glass_65_ffffff_1x400.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/images/ui-bg_glass_75_e6e6e6_1x400.png" for 127.0.0.1 at 2012-03-28 11:01:14 +0100
+Served asset /images/ui-bg_glass_75_e6e6e6_1x400.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_glass_75_dadada_1x400.png" for 127.0.0.1 at 2012-03-28 11:01:14 +0100
+Served asset /images/ui-bg_glass_75_dadada_1x400.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-28 11:01:42 +0100
+Processing by VisitsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered visits/_fields.html.erb (1.0ms)
+  Rendered visits/new.html.erb within layouts/application (19.0ms)
+  Rendered layouts/_css_and_js.html.erb (9.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flash_box.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 95ms (Views: 95.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-28 11:01:42 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2012-03-28 11:01:42 +0100
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-28 11:01:42 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-03-28 11:01:42 +0100
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-custom.css?body=1" for 127.0.0.1 at 2012-03-28 11:01:42 +0100
+Served asset /jquery-ui-custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-03-28 11:01:42 +0100
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-28 11:01:42 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2012-03-28 11:01:42 +0100
+Served asset /dragdrop.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2012-03-28 11:01:42 +0100
+Served asset /controls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2012-03-28 11:01:42 +0100
+Served asset /effects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-28 11:01:42 +0100
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-03-28 11:01:42 +0100
+Served asset /prototype.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/images/img03.jpg" for 127.0.0.1 at 2012-03-28 11:01:42 +0100
+Served asset /images/img03.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/images/img02.jpg" for 127.0.0.1 at 2012-03-28 11:01:42 +0100
+Served asset /images/img02.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2012-03-28 11:01:45 +0100
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-icons_222222_256x240.png" for 127.0.0.1 at 2012-03-28 11:01:45 +0100
+Served asset /images/ui-icons_222222_256x240.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_highlight-soft_75_cccccc_1x100.png" for 127.0.0.1 at 2012-03-28 11:01:45 +0100
+Served asset /images/ui-bg_highlight-soft_75_cccccc_1x100.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_glass_75_e6e6e6_1x400.png" for 127.0.0.1 at 2012-03-28 11:01:45 +0100
+Served asset /images/ui-bg_glass_75_e6e6e6_1x400.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_glass_65_ffffff_1x400.png" for 127.0.0.1 at 2012-03-28 11:01:45 +0100
+Served asset /images/ui-bg_glass_65_ffffff_1x400.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_glass_75_dadada_1x400.png" for 127.0.0.1 at 2012-03-28 11:01:48 +0100
+Served asset /images/ui-bg_glass_75_dadada_1x400.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/images/ui-icons_454545_256x240.png" for 127.0.0.1 at 2012-03-28 11:01:49 +0100
+Served asset /images/ui-icons_454545_256x240.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-28 11:02:08 +0100
+Processing by VisitsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered visits/_fields.html.erb (0.0ms)
+  Rendered visits/new.html.erb within layouts/application (17.0ms)
+  Rendered layouts/_css_and_js.html.erb (8.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flash_box.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 99ms (Views: 99.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-28 11:02:09 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-03-28 11:02:09 +0100
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-28 11:02:09 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2012-03-28 11:02:09 +0100
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-03-28 11:02:09 +0100
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2012-03-28 11:02:09 +0100
+Served asset /controls.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-28 11:02:09 +0100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2012-03-28 11:02:09 +0100
+Served asset /effects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2012-03-28 11:02:09 +0100
+Served asset /dragdrop.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-custom.css?body=1" for 127.0.0.1 at 2012-03-28 11:02:09 +0100
+Served asset /jquery-ui-custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-28 11:02:09 +0100
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-03-28 11:02:09 +0100
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2012-03-28 11:02:11 +0100
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_glass_75_e6e6e6_1x400.png" for 127.0.0.1 at 2012-03-28 11:02:11 +0100
+Served asset /images/ui-bg_glass_75_e6e6e6_1x400.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_highlight-soft_75_cccccc_1x100.png" for 127.0.0.1 at 2012-03-28 11:02:11 +0100
+Served asset /images/ui-bg_highlight-soft_75_cccccc_1x100.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_glass_55_fbf9ee_1x400.png" for 127.0.0.1 at 2012-03-28 11:02:11 +0100
+Served asset /images/ui-bg_glass_55_fbf9ee_1x400.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/images/ui-icons_222222_256x240.png" for 127.0.0.1 at 2012-03-28 11:02:11 +0100
+Served asset /images/ui-icons_222222_256x240.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_glass_75_dadada_1x400.png" for 127.0.0.1 at 2012-03-28 11:02:12 +0100
+Served asset /images/ui-bg_glass_75_dadada_1x400.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_glass_65_ffffff_1x400.png" for 127.0.0.1 at 2012-03-28 11:02:16 +0100
+Served asset /images/ui-bg_glass_65_ffffff_1x400.png - 304 Not Modified (0ms)

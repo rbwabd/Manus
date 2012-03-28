@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <%= csrf_meta_tag %>
+  <%= render 'layouts/css_and_js' %>
+</head>
+<body>
+<div class="container">
+  <%= render 'layouts/header' %>
+  <div id="page">
+    <%= yield :sidebar %>
+    <div id="content">
+      <%= render 'shared/flash_box' %>
+      <%= yield %>
+      <div style="clear: both;">&nbsp;</div>
+    </div>
+  </div>
+  <%= render 'layouts/footer' %>
+</div>
+</body>
+</html>
