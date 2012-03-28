@@ -770,3 +770,150 @@ Served asset /images/ui-bg_glass_75_dadada_1x400.png - 304 Not Modified (0ms)
 
 Started GET "/assets/images/ui-bg_glass_65_ffffff_1x400.png" for 127.0.0.1 at 2012-03-28 11:02:16 +0100
 Served asset /images/ui-bg_glass_65_ffffff_1x400.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-28 11:47:21 +0100
+Processing by VisitsController#new as HTML
+  Rendered shared/_error_messages.html.erb (1.0ms)
+  Rendered visits/_fields.html.erb (1.0ms)
+  Rendered visits/new.html.erb within layouts/application (434.0ms)
+Compiled jquery-ui.js  (13ms)  (pid 4808)
+Compiled application.js  (261ms)  (pid 4808)
+  Rendered layouts/_css_and_js.html.erb (414.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flash_box.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1558ms (Views: 1545.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-28 11:47:42 +0100
+Served asset /application.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/jquery-ui-custom.css?body=1" for 127.0.0.1 at 2012-03-28 11:47:42 +0100
+Served asset /jquery-ui-custom.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-03-28 11:47:42 +0100
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-28 11:47:42 +0100
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-28 11:47:42 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-03-28 11:47:42 +0100
+Served asset /jquery-ui.js - 304 Not Modified (44ms)
+
+
+Started GET "/assets/controls.js?body=1" for 127.0.0.1 at 2012-03-28 11:47:42 +0100
+Served asset /controls.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/dragdrop.js?body=1" for 127.0.0.1 at 2012-03-28 11:47:42 +0100
+Served asset /dragdrop.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2012-03-28 11:47:42 +0100
+Served asset /effects.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-28 11:47:42 +0100
+Served asset /application.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2012-03-28 11:47:45 +0100
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 304 Not Modified (8ms)
+
+
+Started GET "/assets/images/ui-icons_222222_256x240.png" for 127.0.0.1 at 2012-03-28 11:47:45 +0100
+Served asset /images/ui-icons_222222_256x240.png - 304 Not Modified (15ms)
+
+
+Started GET "/assets/images/ui-bg_highlight-soft_75_cccccc_1x100.png" for 127.0.0.1 at 2012-03-28 11:47:45 +0100
+Served asset /images/ui-bg_highlight-soft_75_cccccc_1x100.png - 304 Not Modified (58ms)
+
+
+Started GET "/assets/images/ui-bg_glass_75_e6e6e6_1x400.png" for 127.0.0.1 at 2012-03-28 11:47:45 +0100
+Served asset /images/ui-bg_glass_75_e6e6e6_1x400.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/images/ui-bg_glass_55_fbf9ee_1x400.png" for 127.0.0.1 at 2012-03-28 11:47:45 +0100
+Served asset /images/ui-bg_glass_55_fbf9ee_1x400.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/images/ui-bg_glass_75_dadada_1x400.png" for 127.0.0.1 at 2012-03-28 11:47:47 +0100
+Served asset /images/ui-bg_glass_75_dadada_1x400.png - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-28 11:48:24 +0100
+Processing by VisitsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered visits/_fields.html.erb (0.0ms)
+  Rendered visits/new.html.erb within layouts/application (18.0ms)
+Compiled application.js  (7ms)  (pid 4808)
+  Rendered layouts/_css_and_js.html.erb (204.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flash_box.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 286ms (Views: 285.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-03-28 11:48:24 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-03-28 11:48:24 +0100
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-03-28 11:48:24 +0100
+Served asset /application.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/jquery-ui-custom.css?body=1" for 127.0.0.1 at 2012-03-28 11:48:24 +0100
+Served asset /jquery-ui-custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-28 11:48:24 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-28 11:48:24 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2012-03-28 11:48:24 +0100
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/img03.jpg" for 127.0.0.1 at 2012-03-28 11:48:24 +0100
+Served asset /images/img03.jpg - 200 OK (11ms)
+
+
+Started GET "/assets/images/img02.jpg" for 127.0.0.1 at 2012-03-28 11:48:24 +0100
+Served asset /images/img02.jpg - 200 OK (3ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2012-03-28 11:48:26 +0100
+Served asset /images/ui-bg_flat_75_ffffff_40x100.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-icons_222222_256x240.png" for 127.0.0.1 at 2012-03-28 11:48:26 +0100
+Served asset /images/ui-icons_222222_256x240.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_highlight-soft_75_cccccc_1x100.png" for 127.0.0.1 at 2012-03-28 11:48:26 +0100
+Served asset /images/ui-bg_highlight-soft_75_cccccc_1x100.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/ui-bg_glass_75_e6e6e6_1x400.png" for 127.0.0.1 at 2012-03-28 11:48:26 +0100
+Served asset /images/ui-bg_glass_75_e6e6e6_1x400.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/images/ui-bg_glass_55_fbf9ee_1x400.png" for 127.0.0.1 at 2012-03-28 11:48:26 +0100
+Served asset /images/ui-bg_glass_55_fbf9ee_1x400.png - 304 Not Modified (0ms)
