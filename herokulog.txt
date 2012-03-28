@@ -1,0 +1,102 @@
+2012-03-28T10:25:55+00:00 app[web.1]: Served asset /jquery-99c0bf55c7e00eae24c8a527b988a33d.js - 200 OK (0ms)
+2012-03-28T10:25:55+00:00 app[web.1]: Served asset /jquery_ujs-c083290e87c0016c971d1aa12f6aed7c.js - 200 OK (0ms)
+2012-03-28T10:25:55+00:00 app[web.1]: Served asset /jquery-ui-b644141be33f93143c9b7cf890a7a901.js - 200 OK (0ms)
+2012-03-28T10:25:55+00:00 app[web.1]: cache: [GET /assets/jquery_ujs-c083290e87c0016c971d1aa12f6aed7c.js?body=1] miss, store
+2012-03-28T10:25:55+00:00 heroku[router]: GET manus.herokuapp.com/assets/jquery_ujs-c083290e87c0016c971d1aa12f6aed7c.js dyno=web.1 queue=0 wait=0ms service=68ms status=200 bytes=15335
+2012-03-28T10:25:55+00:00 app[web.1]: cache: [GET /assets/jquery-ui-b644141be33f93143c9b7cf890a7a901.js?body=1] miss, store
+2012-03-28T10:25:55+00:00 heroku[router]: GET manus.herokuapp.com/assets/jquery-99c0bf55c7e00eae24c8a527b988a33d.js dyno=web.1 queue=0 wait=0ms service=82ms status=200 bytes=248236
+2012-03-28T10:25:55+00:00 heroku[router]: GET manus.herokuapp.com/assets/jquery-ui-b644141be33f93143c9b7cf890a7a901.js dyno=web.1 queue=0 wait=0ms service=85ms status=200 bytes=376307
+2012-03-28T10:25:56+00:00 app[web.1]: 
+2012-03-28T10:25:56+00:00 app[web.1]: Started GET "/assets/controls-8817e74f2eca447b3fce24f9b6964fa4.js?body=1" for 195.171.182.210 at 2012-03-28 10:25:56 +0000
+2012-03-28T10:25:56+00:00 app[web.1]: 
+2012-03-28T10:25:56+00:00 app[web.1]: cache: [GET /assets/controls-8817e74f2eca447b3fce24f9b6964fa4.js?body=1] miss, store
+2012-03-28T10:25:56+00:00 app[web.1]: Served asset /controls-8817e74f2eca447b3fce24f9b6964fa4.js - 200 OK (0ms)
+2012-03-28T10:25:56+00:00 heroku[router]: GET manus.herokuapp.com/assets/controls-8817e74f2eca447b3fce24f9b6964fa4.js dyno=web.1 queue=0 wait=0ms service=16ms status=200 bytes=34788
+2012-03-28T10:25:56+00:00 app[web.1]: 
+2012-03-28T10:25:56+00:00 app[web.1]: 
+2012-03-28T10:25:56+00:00 app[web.1]: Started GET "/assets/dragdrop-de5fd1a42266f6433e4e7393a19548fd.js?body=1" for 195.171.182.210 at 2012-03-28 10:25:56 +0000
+2012-03-28T10:25:56+00:00 app[web.1]: cache: [GET /assets/dragdrop-de5fd1a42266f6433e4e7393a19548fd.js?body=1] miss, store
+2012-03-28T10:25:56+00:00 app[web.1]: Served asset /dragdrop-de5fd1a42266f6433e4e7393a19548fd.js - 200 OK (0ms)
+2012-03-28T10:25:56+00:00 heroku[router]: GET manus.herokuapp.com/assets/dragdrop-de5fd1a42266f6433e4e7393a19548fd.js dyno=web.1 queue=0 wait=0ms service=14ms status=200 bytes=31057
+2012-03-28T10:25:56+00:00 app[web.1]: 
+2012-03-28T10:25:56+00:00 app[web.1]: 
+2012-03-28T10:25:56+00:00 app[web.1]: Started GET "/assets/effects-08fb8baf51ebea162dc12e8a6dd613d0.js?body=1" for 195.171.182.210 at 2012-03-28 10:25:56 +0000
+2012-03-28T10:25:56+00:00 app[web.1]: cache: [GET /assets/effects-08fb8baf51ebea162dc12e8a6dd613d0.js?body=1] miss, store
+2012-03-28T10:25:56+00:00 app[web.1]: Served asset /effects-08fb8baf51ebea162dc12e8a6dd613d0.js - 200 OK (1ms)
+2012-03-28T10:25:56+00:00 heroku[router]: GET manus.herokuapp.com/assets/effects-08fb8baf51ebea162dc12e8a6dd613d0.js dyno=web.1 queue=0 wait=0ms service=29ms status=200 bytes=38472
+2012-03-28T10:25:56+0
+0:00 app[web.1]: 
+2012-03-28T10:25:56+00:00 app[web.1]: 
+2012-03-28T10:25:56+00:00 app[web.1]: Started GET "/assets/prototype-f89ff748c3d598a1d9226b7d6d916020.js?body=1" for 195.171.182.210 at 2012-03-28 10:25:56 +0000
+2012-03-28T10:25:56+00:00 app[web.1]: cache: [GET /assets/prototype-f89ff748c3d598a1d9226b7d6d916020.js?body=1] miss, store
+2012-03-28T10:25:56+00:00 app[web.1]: Served asset /prototype-f89ff748c3d598a1d9226b7d6d916020.js - 200 OK (0ms)
+2012-03-28T10:25:56+00:00 heroku[router]: GET manus.herokuapp.com/assets/prototype-f89ff748c3d598a1d9226b7d6d916020.js dyno=web.1 queue=0 wait=0ms service=82ms status=200 bytes=162354
+2012-03-28T10:25:56+00:00 app[web.1]: cache: [GET /assets/application-779deb478ebc67480c8577a8d0e0928b.js?body=1] miss
+2012-03-28T10:25:56+00:00 heroku[router]: GET manus.herokuapp.com/assets/application-779deb478ebc67480c8577a8d0e0928b.js dyno=web.1 queue=0 wait=0ms service=31ms status=200 bytes=453911
+2012-03-28T10:25:58+00:00 app[web.1]: cache: [GET /assets/images/img03.jpg] miss
+2012-03-28T10:25:58+00:00 heroku[router]: GET manus.herokuapp.com/assets/images/img03.jpg dyno=web.1 queue=0 wait=0ms service=7ms status=200 bytes=824
+2012-03-28T10:25:58+00:00 app[web.1]: cache: [GET /assets/images/img02.jpg] miss
+2012-03-28T10:25:58+00:00 heroku[router]: GET manus.herokuapp.com/assets/images/img02.jpg dyno=web.1 queue=0 wait=0ms service=10ms status=200 bytes=17861
+2012-03-28T10:26:06+00:00 app[web.1]: 
+2012-03-28T10:26:06+00:00 app[web.1]: Started POST "/visits" for 195.171.182.210 at 2012-03-28 10:26:06 +0000
+2012-03-28T10:26:06+00:00 app[web.1]: 
+2012-03-28T10:26:06+00:00 app[web.1]: 
+2012-03-28T10:26:06+00:00 app[web.1]: AbstractController::ActionNotFound (The action 'create' could not be found for VisitsController):
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/abstract_controller/base.rb:116:in `process'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/abstract_controller/rendering.rb:45:in `process'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal.rb:203:in `dispatch'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_controller/metal.rb:246:in `block in action'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/routing/route_set.rb:67:in `dispatch'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/routing/route_set.rb:67:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/routing/route_set.rb:3
+0:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/journey-1.0.3/lib/journey/router.rb:68:in `block in call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/journey-1.0.3/lib/journey/router.rb:56:in `each'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/journey-1.0.3/lib/journey/router.rb:56:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/routing/route_set.rb:594:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/conditionalget.rb:35:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/head.rb:14:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/flash.rb:242:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-3.2.2/lib/active_record/query_cache.rb:64:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-3.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.2/lib/active_support/callbacks.rb:405:in `_run__1093791402765572882__call__3351279937071682581__callbacks'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.2/lib/active_support/callbacks.rb:405:in `__run_callback'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.2/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.2/lib/active_support/callbacks.rb:81:in `run_callbacks'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-3.2.2/lib/rails/rack/logger.rb:26:in `call_app'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-3.2.2/lib/rails/rack/logger.rb:16:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.2/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-cache-1.2/lib/rack/cache/context.rb:136:in `forward'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/static.rb:61:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-cache-1.2/lib/rack/cache/context.rb:143:in `pass'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-cache-1.2/lib/rack/cache/context.rb:155:in `invalidate'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-cache-1.2/lib/rack/cache/context.rb:71:in `call!'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-cache-1.2/lib/rack/cache/context.rb:51:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-3.2.2/lib/rails/engine.rb:479:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-3.2.2/lib/rails/application.rb:220:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+2012-03-28T10:26:06+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-3.2.2/lib/rails/rack/log_tailer.rb:14:in `call'
+2012-03-28T10:26:06+00:00 app[web.1]:   /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+2012-03-28T10:26:06+00:00 app[web.1]:   /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+2012-03-28T10:26:06+00:00 app[web.1]:   /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+2012-03-28T10:26:06+00:00 app[web.1]: 
+2012-03-28T10:26:06+00:00 app[web.1]: 
+2012-03-28T10:26:06+00:00 app[web.1]: cache: [POST /visits] invalidate, pass
+2012-03-28T10:26:06+00:00 heroku[router]: POST manus.herokuapp.com/visits dyno=web.1 queue=0 wait=0ms service=58ms status=404 bytes=728
